@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: es el más lento
+
+sort2 uses: Merge sort
+
+How do you know?: Es el más rápido
+
+sort3 uses: Selection sort
+
+How do you know?: no es tan rapido como el ordenamiento por mezcla pero toma menos tiempo que el de burbuja
