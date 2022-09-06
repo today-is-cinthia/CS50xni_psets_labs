@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  @media (max-width: 500px) {
+    #img {
+      width: 50%;
+    }
+    #card3{
+      margin-left: 80%;
+    }
+
+  }
+
+  .barranav {
+    overflow: hidden;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+    background-color: #2b2b61;
+  }
+
+  body {
+background-color: #fff;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 30%;
+    background-color: #C0C0C0;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #8FBC8F;
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+
+ #titulo {
+    color: #2b2b61;
+    font-family: "Playfair Display", serif;
+  }
+
+  #parrafo {
+    font-family: "Playfair Display", serif;
+  }
+
+   .jumbotron{
+    background-color: #fff;
+  }
+
+  .jumbotron #change {
+    background-color: #fff;
+  }
+  /*# sourceMappingURL=style.css.map */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+}
+.wrapper .static-txt{
+  color: #2b2b61 ;
+  font-size: 50px;
+  font-weight: 400;
+}
+.wrapper .dynamic-txts{
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.dynamic-txts li{
+  list-style: none;
+  color: #FC6D6D;
+  font-size: 50px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+.like__btn, .likebtn2, .likebtn3{
+  padding: 8.8px 18px;
+  background: #2b2b61;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  color: #e8efff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
